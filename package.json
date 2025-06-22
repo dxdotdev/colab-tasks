@@ -18,6 +18,8 @@
     "packages/*"
   ],
   "trustedDependencies": [
-    "@swc/core"
+    "@swc/core",
+    "@tailwindcss/oxide",
+    "esbuild"
   ]
 }
