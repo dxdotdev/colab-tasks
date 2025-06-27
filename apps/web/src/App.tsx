@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="grid min-h-screen place-items-center">
-      <Button variant="outline" onClick={() => setCount(count + 1)}>
+      <Button onClick={() => setCount(count + 1)} variant="outline">
         Count: {count}
       </Button>
     </div>
