@@ -3,16 +3,12 @@ import { AccordionContent, AccordionItem, AccordionTrigger } from '@/components/
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 
-type Color = 'black' | 'blue' | 'brown' | 'gray' | 'green' | 'orange' | 'pink' | 'purple' | 'red' | 'white' | 'yellow'
-
 type User = {
   name: string
-  color: Color
 }
 
 type Tag = {
   title: string
-  color: Color
 }
 
 export type Task = {
@@ -39,7 +35,7 @@ function KanbanTask({ task }: { task: Task }) {
         <div className="-space-x-3 flex *:data-[slot=avatar]:ring-2 *:data-[slot=avatar]:ring-card">
           {task.assigned.map((user) => (
             <Avatar className="size-7" key={user.name}>
-              <AvatarFallback className="text-xs" color={user.color}>
+              <AvatarFallback className="text-xs">
                 {user.name
                   .split(' ')
                   .map((n) => n[0])
@@ -58,9 +54,7 @@ function KanbanTask({ task }: { task: Task }) {
 
       <div className="mt-4 flex gap-1">
         {task.tags.map((tag) => (
-          <Badge color={tag?.color} key={tag?.title}>
-            {tag?.title}
-          </Badge>
+          <Badge key={tag?.title}>{tag?.title}</Badge>
         ))}
 
         {

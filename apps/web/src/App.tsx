@@ -39,8 +39,8 @@ function App() {
   return (
     <div className="grid min-h-screen place-items-center">
       <Accordion className="space-y-4" type="single">
-        <KanbanItem Icon={Circle} tasks={todoTasks} title="Para Fazer" value="todo" />
-        <KanbanItem Icon={CircleCheckBig} tasks={doneTasks} title="Feitos" value="done" />
+        <KanbanItem Icon={Circle} tasks={todoTasks} title="Pendente" value="todo" />
+        <KanbanItem Icon={CircleCheckBig} tasks={doneTasks} title="Feito" value="done" />
       </Accordion>
     </div>
   )
