@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@repo/lib": "workspace:*",
+    "@radix-ui/react-accordion": "^1.2.11",
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
+    "@repo/lib": "workspace:*",
     "@tailwindcss/vite": "^4.1.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
