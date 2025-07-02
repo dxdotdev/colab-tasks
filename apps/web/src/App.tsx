@@ -9,14 +9,8 @@ function App() {
       // biome-ignore lint/nursery/useNumericSeparators: represents date
       id: 27062501,
       title: 'Lavar a louça',
-      assigned: [
-        { name: 'Davi Reis', color: 'purple' },
-        { name: 'Emanuela Picanço', color: 'blue' },
-      ],
-      tags: [
-        { title: 'Urgente', color: 'red' },
-        { title: 'Urgente', color: 'red' },
-      ],
+      assigned: [{ name: 'Davi Reis' }, { name: 'Emanuela Picanço' }],
+      tags: [{ title: 'Urgente' }, { title: 'Urgente' }],
     },
   ]
 
@@ -25,14 +19,8 @@ function App() {
       // biome-ignore lint/nursery/useNumericSeparators: represents date
       id: 27062501,
       title: 'Lavar a louça',
-      assigned: [
-        { name: 'Davi Reis', color: 'purple' },
-        { name: 'Emanuela Picanço', color: 'blue' },
-      ],
-      tags: [
-        { title: 'Urgente', color: 'red' },
-        { title: 'Urgente', color: 'red' },
-      ],
+      assigned: [{ name: 'Davi Reis' }, { name: 'Emanuela Picanço' }],
+      tags: [{ title: 'Urgente' }, { title: 'Urgente' }],
     },
   ]
 
